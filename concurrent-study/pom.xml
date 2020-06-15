@@ -5,16 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.pcitc</groupId>
-    <artifactId>basic-articles</artifactId>
+    <artifactId>concurrent-study</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>concurrent-study</module>
-        <module>design-mode</module>
-        <module>idempotent_demo</module>
-        <module>precise-demo</module>
-        <module>rpc_study</module>
-        <module>tomcat-demo</module>
+        <module>concurrent</module>
+		<module>lock</module>
+		<module>springbean-concurrent-demo</module>
     </modules>
 
 </project>
